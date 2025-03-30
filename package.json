@@ -1,11 +1,18 @@
 {
   "name": "urlshortner",
   "version": "1.0.0",
+  "type": "module",
   "description": "Url Shortening Service",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jindvir Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.1",
+    "nanoid": "^5.1.5"
+  }
 }
